@@ -2,14 +2,14 @@ import { GymClass, Trainer, MembershipPlan, ClubReview, ClubFacilitySpace } from
 
 // Generated image assets
 export const IMAGES = {
-  hero: '/src/assets/images/hero_training_aguda_1790254709283.jpg',
-  membershipHero: '/src/assets/images/membership_hero_1790258588871.jpg',
-  benefitsHero: '/src/assets/images/wellness_recovery_spa_1790254747384.jpg',
-  corporateHero: '/src/assets/images/corporate_hero_1790258842639.jpg',
-  aboutHero: '/src/assets/images/about_hero_1790258856267.jpg',
-  gymFloor: '/src/assets/images/facility_gym_floor_1790254721305.jpg',
-  combatStudio: '/src/assets/images/classes_combat_studio_1790254733268.jpg',
-  recoverySpa: '/src/assets/images/wellness_recovery_spa_1790254747384.jpg',
+  hero: '/images/hero_training_aguda_1790254709283.jpg',
+  membershipHero: '/images/membership_hero_1790258588871.jpg',
+  benefitsHero: '/images/wellness_recovery_spa_1790254747384.jpg',
+  corporateHero: '/images/corporate_hero_1790258842639.jpg',
+  aboutHero: '/images/about_hero_1790258856267.jpg',
+  gymFloor: '/images/facility_gym_floor_1790254721305.jpg',
+  combatStudio: '/images/classes_combat_studio_1790254733268.jpg',
+  recoverySpa: '/images/wellness_recovery_spa_1790254747384.jpg',
 };
 
 export const CLUB_INFO = {
