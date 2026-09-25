@@ -1,0 +1,6 @@
+{
+  "name": "Fitness Options Aguda Branch",
+  "description": "Lagos's premier luxury fitness and wellness club. World-class strength, conditioning, boutique classes, and recovery at 9 Rasaq Gbadamosi Ave, Aguda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

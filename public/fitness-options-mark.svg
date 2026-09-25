@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 500" width="480" height="1000" fill="none">
+  <defs>
+    <linearGradient id="figBlueMark" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#2464E0" />
+      <stop offset="50%" stop-color="#154BBA" />
+      <stop offset="100%" stop-color="#0E368E" />
+    </linearGradient>
+    <radialGradient id="headRadialMark" cx="36%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#FF585E" />
+      <stop offset="55%" stop-color="#D91C23" />
+      <stop offset="100%" stop-color="#880E13" />
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(-320, 0)">
+    <!-- Shadow -->
+    <path
+      d="M 474 36 C 440 43, 392 72, 370 118 C 352 155, 357 190, 368 217 C 374 231, 383 241, 392 247 C 410 259, 456 255, 504 237 C 508 235, 506 242, 500 245 C 448 271, 390 277, 369 257 C 354 243, 343 219, 341 185 C 339 133, 370 73, 432 37 C 460 21, 494 19, 518 23 C 524 24, 522 28, 516 29 C 502 31, 487 35, 474 36 Z"
+      fill="#051536"
+      transform="translate(3, 4)"
+      opacity="0.5"
+    />
+    <path
+      d="M 392 247 C 394 275, 404 330, 420 395 C 425 417, 432 443, 439 461 C 440 463, 437 464, 436 461 C 424 431, 406 345, 376 253 C 382 250, 387 248, 392 247 Z"
+      fill="#051536"
+      transform="translate(3, 4)"
+      opacity="0.5"
+    />
+
+    <!-- Main Body -->
+    <path
+      d="M 474 36 C 440 43, 392 72, 370 118 C 352 155, 357 190, 368 217 C 374 231, 383 241, 392 247 C 410 259, 456 255, 504 237 C 508 235, 506 242, 500 245 C 448 271, 390 277, 369 257 C 354 243, 343 219, 341 185 C 339 133, 370 73, 432 37 C 460 21, 494 19, 518 23 C 524 24, 522 28, 516 29 C 502 31, 487 35, 474 36 Z"
+      fill="url(#figBlueMark)"
+    />
+    <path
+      d="M 392 247 C 394 275, 404 330, 420 395 C 425 417, 432 443, 439 461 C 440 463, 437 464, 436 461 C 424 431, 406 345, 376 253 C 382 250, 387 248, 392 247 Z"
+      fill="url(#figBlueMark)"
+    />
+
+    <!-- Highlight -->
+    <path
+      d="M 516 29 C 466 29, 416 59, 382 105 C 362 132, 354 167, 356 195 C 354 165, 362 130, 384 101 C 420 53, 470 25, 520 23 C 519 25, 518 27, 516 29 Z"
+      fill="#60A5FA"
+      opacity="0.8"
+    />
+
+    <!-- Head -->
+    <ellipse cx="400" cy="104" rx="20" ry="24" fill="#50070A" opacity="0.5" transform="translate(2, 3)" />
+    <ellipse cx="400" cy="104" rx="20" ry="24" fill="url(#headRadialMark)" />
+  </g>
+</svg>
